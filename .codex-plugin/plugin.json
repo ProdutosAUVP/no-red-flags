@@ -1,0 +1,29 @@
+{
+  "name": "no-red-flags",
+  "version": "1.0.0",
+  "description": "Remove 40+ design red flags that make an interface look AI-generated: purple gradients, cardocalypse, eyebrow labels on every heading, colored pill tags, icon tiles, glassmorphism, fake social proof, and modal dumping.",
+  "author": {
+    "name": "AUVP",
+    "url": "https://github.com/produtosauvp"
+  },
+  "homepage": "https://github.com/produtosauvp/no-red-flags",
+  "repository": "https://github.com/produtosauvp/no-red-flags",
+  "license": "MIT",
+  "keywords": ["design", "ui", "frontend", "ai-slop", "anti-patterns", "review"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "No Red Flags",
+    "shortDescription": "Catch and fix the design patterns that make a UI look AI-generated.",
+    "longDescription": "Audits, fixes, or builds UI so that none of the known AI design tells appear: the purple gradient, the cream-and-italic-serif default, cards inside cards, eyebrow labels on every heading, colored pill tags, oversized icon tiles, glassmorphism and glows, fake social proof, the pulsing green dot, the conveyor-belt landing page, and modal dumping. It keeps your brand, content, and functionality, states a design direction first, and lists what it changed.",
+    "developerName": "AUVP",
+    "category": "productivity",
+    "capabilities": ["Fix a UI", "Build a UI", "Detect red flags"],
+    "websiteURL": "https://github.com/produtosauvp/no-red-flags",
+    "defaultPrompt": [
+      "Use /no-red-flags to fix this component: (paste code)",
+      "Use /no-red-flags to detect AI design red flags in this page",
+      "Use /no-red-flags to build a landing page for (product)"
+    ],
+    "brandColor": "#B42318"
+  }
+}
